@@ -1,16 +1,19 @@
-# davao_coffee
+# Coffee_Davao
 
-A new Flutter project.
+Davao Coffee is a Flutter application connected to Supabase. It includes a login screen, dashboard, cafe details screen, and my account screen for the recorded project demonstration.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Guest and email/password login
+- Google login option
+- Supabase-backed cafe, review, and profile data
+- Dashboard with available cafes
+- Details screen for selected cafe items
+- My Account screen
+- Logout flow back to login
 
-A few resources to get you started if this is your first Flutter project:
+## Run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```powershell
+flutter run -d chrome --dart-define=SUPABASE_URL=https://kldeupbkozunotircpnf.supabase.co --dart-define=SUPABASE_ANON_KEY=YOUR_PUBLISHABLE_KEY
+```
